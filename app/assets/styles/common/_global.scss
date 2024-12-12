@@ -42,6 +42,16 @@ a {
   width: 200px !important;
 }
 
+.toegankelijk-filter-tabel {
+  display: grid;
+  grid-template-columns:1fr 25px;
+
+  label, input {
+    line-height: 30px;
+    border-bottom: 1px dotted gray;
+  }
+}
+
 .background-lighter-grey {
   background-color: $lighter-grey;
 }
