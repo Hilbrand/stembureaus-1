@@ -47,8 +47,9 @@ a {
   grid-template-columns:1fr 25px;
 
   label, input {
-    line-height: 30px;
+    align-self: center;
     border-bottom: 1px dotted gray;
+    padding: 5px 0;
   }
 }
 

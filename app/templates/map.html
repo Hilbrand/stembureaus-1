@@ -14,49 +14,45 @@
           </select>
         </div>
       </label-->
-      <label>
-        <a class="filter-collapse collapsed" data-toggle="collapse" href="#collapse0" aria-expanded="false" aria-controls="collapse0">Openingstijden</a>
-        <div class="collapse" id="collapse0">
-          <select class="form-control filter" id="openingstijden-filter">
-            <option value="" selected>(toon alles)</option>
-            <option value="regulier">Regulier (07:30 - 21:00)</option>
-            <option value="afwijkend">Afwijkend</option>
-          </select>
-        </div>
-      </label>
 
       <div class="visible-md-block visible-lg-block">
         <div class="toegankelijk-filter-tabel">
+          <h4 style="grid-column: span 2">Openingstijden</h4>
+          <label for="openingstijden-regulier-filter">Regulier (07:30 - 21:00)</label>
+          <input type="checkbox" id="openingstijden-regulier-filter" class=" form-control" value="ja">
+          <label for="openingstijden-afwijkend-filter">Afwijkend</label>
+          <input type="checkbox" id="openingstijden-afwijkend-filter" class=" form-control" value="ja">            
+          <h4 style="grid-column: span 2">Toegankelijkheid</h4>
+          <label for="host-filter">Gastheer/Gastvrouw</label>
+          <input type="checkbox" id="host-filter" class=" form-control" value="ja">
+          <label for="gehandicaptentoilet-filter">Gehandicaptentoilet</label>
+          <input type="checkbox" id="gehandicaptentoilet-filter" class=" form-control" value="ja">
+          <label for="prikkelarm-filter">Prikkelarm</label>
+          <input type="checkbox" id="prikkelarm-filter" class=" form-control" value="ja">
           <label for="toegankelijk-filter">Toegankelijk voor mensen met een lichamelijke beperking</label>
           <input type="checkbox" id="toegankelijk-filter" class=" form-control" value="ja">
           <label for="toegankelijke-ov-halte-filter">Toegankelijke ov-halte</label>
           <input type="checkbox" id="toegankelijke-ov-halte-filter" class=" form-control" value="ja">
-          <label for="gehandicaptentoilet-filter">Gehandicaptentoilet</label>
-          <input type="checkbox" id="gehandicaptentoilet-filter" class=" form-control" value="ja">
-          <label for="host-filter">Host</label>
-          <input type="checkbox" id="host-filter" class=" form-control" value="ja">
-          <label for="prikkelarm-filter">Prikkelarm</label>
-          <input type="checkbox" id="prikkelarm-filter" class=" form-control" value="ja">
           <h4 style="grid-column: span 2">Visuele Ondersteuning</h4>
-          <label for="geleidelijnen-buiten-filter">Geleidelijnen Buiten</label>
-          <input type="checkbox" id="geleidelijnen-buiten-filter" class=" form-control" value="ja">
           <label for="geleidelijnen-binnen-filter">Geleidelijnen Binnen</label>
           <input type="checkbox" id="geleidelijnen-binnen-filter" class=" form-control" value="ja">
+          <label for="geleidelijnen-buiten-filter">Geleidelijnen Buiten</label>
+          <input type="checkbox" id="geleidelijnen-buiten-filter" class=" form-control" value="ja">
           <label for="kandidatenlijst-in-braille-filter">Kandidatenlijst in braille</label>
           <input type="checkbox" id="kandidatenlijst-in-braille-filter" class=" form-control" value="ja">
           <label for="kandidatenlijst-met-grote-lettersfilter">Kandidatenlijst met grote letters</label>
           <input type="checkbox" id="kandidatenlijst-met-grote-letters-filter" class=" form-control" value="ja">
           <h4 style="grid-column: span 2">Audio Ondersteuning</h4>
-          <label for="stemmal-met-audio-ondersteuning-filter">Stemmal met audio-ondersteuning</label>
-          <input type="checkbox" id="stemmal-met-audio-ondersteuning-filter" class=" form-control" value="ja">
-          <label for="gebarentolk-ngt-op-locatie-filter">Gebarentolk (NGT) op locatie</label>
-          <input type="checkbox" id="gebarentolk-ngt-op-locatie-filter" class=" form-control" value="ja">
-          <label for="gebarentolk-ngt-op-afstand-filter">Gebarentolk (NGT) op afstand</label>
-          <input type="checkbox" id="gebarentolk-ngt-op-afstand-filter" class=" form-control" value="ja">
-          <label for="gebarentalig-stembureaulid-ngt-filter">Gebarentalig stembureaulid (NGT)</label>
-          <input type="checkbox" id="gebarentalig-stembureaulid-ngt-filter" class=" form-control" value="ja">
           <label for="akoestiek-filter">Akoestiek geschikt voor slechthorenden</label>
           <input type="checkbox" id="akoestiek-filter" class=" form-control" value="ja">
+          <label for="gebarentalig-stembureaulid-ngt-filter">Gebarentalig stembureaulid (NGT)</label>
+          <input type="checkbox" id="gebarentalig-stembureaulid-ngt-filter" class=" form-control" value="ja">
+          <label for="gebarentolk-ngt-op-afstand-filter">Gebarentolk (NGT) op afstand</label>
+          <input type="checkbox" id="gebarentolk-ngt-op-afstand-filter" class=" form-control" value="ja">
+          <label for="gebarentolk-ngt-op-locatie-filter">Gebarentolk (NGT) op locatie</label>
+          <input type="checkbox" id="gebarentolk-ngt-op-locatie-filter" class=" form-control" value="ja">
+          <label for="stemmal-met-audio-ondersteuning-filter">Stemmal met audio-ondersteuning</label>
+          <input type="checkbox" id="stemmal-met-audio-ondersteuning-filter" class=" form-control" value="ja">
         </div>
     </div>
   </div>

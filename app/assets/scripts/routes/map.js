@@ -462,6 +462,7 @@ export default {
               temp_filtered_locations.push(loc);
             }
           });
+          console.log(filter[1], temp_filtered_locations)
           StembureausApp.filtered_locations = temp_filtered_locations;
         });
       };
